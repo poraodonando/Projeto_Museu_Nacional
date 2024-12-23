@@ -1,0 +1,78 @@
+/* Estrutura padrão  */
+
+body{
+    background: #f4f2ec url(/Assets/Imagens/fundo.png) repeat-x;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* Estrutura do LOGO */
+
+#logo a{
+    width: 248px;
+    height: 21px;
+    text-indent: -9999px;
+    display: block;
+    background: url(/Assets/Imagens/logo.png) no-repeat;
+}
+
+#logo h1{
+    float: left;
+}
+
+a:link, a:active, a:visited{
+    color: #af670a;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #227115;
+}
+
+/*Estilo Barra de Navegação*/
+
+header{
+    padding: 15px 0;
+    height: 55px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 20px;
+}
+
+nav ul li{
+    float: left;
+}
+
+
+nav ul li a:link{
+    display: block;
+    margin-right: 20px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #535858;
+}
+
+/* Eslilizando a Área Principal */
+
+#conteudo{
+    width: 710px;
+    float: left;
+    background: green;
+}
+
+aside{
+    width: 370px;
+    float: right;
+    background: gray;
+}
